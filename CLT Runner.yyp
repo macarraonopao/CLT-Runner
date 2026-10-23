@@ -36,7 +36,6 @@
   "name":"CLT Runner",
   "resources":[
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
     {"id":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
   ],
   "resourceType":"GMProject",
