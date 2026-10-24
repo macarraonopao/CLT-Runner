@@ -1,0 +1,43 @@
+Caracteristicas do jogo:
+- Auto scroller vertical
+- Personagem anda nos cantos da tela indo para cima
+- Muda para o lado direito ou esquerdo da tela se teleportando com um clique
+- Coletar os pickups para aumentar pontução
+- Desviar da CLT(obstaculo)
+- Animação de rotação dos pickups
+- Animação flutuante indo de baixo para cima em loop da CLT(obstaculo)
+- Musica de background
+- Som de pickup
+- Tela inicial é uma historia em quadrinhos, depois de mostra-la, o jogo começa
+
+Desenvolvimento:
+- COMIC INTRO PAGINA 2 SPACEBAR
+	(pos)x = 4, (pos)y = 604
+	scalex = 0.45 scaley = 0.45
+	alpha = 255
+- COMIC INTRO PAGINA 3 SPACEBAR
+	(pos)x = 60, (pos)y = 272
+	scalex = 0.65 scaley = 0.65
+	rotation = 5.35
+- COMIC INTRO PAGINA 4 SPACEBAR
+	(pos)x = 80, (pos)y = 412
+	scalex = 0.65 scaley = 0.65
+	rotation = 60.3
+- Auto scroll da tela -FEITO-
+- Música -FEITO-
+- Colocar o player andando na tela -FEITO-
+	Lado esquerdo- (pos)X = 28, Scale X = 1
+	Lado direito- (pos)X = 152, Scale X = -1
+	sempre (pos)Y = 260
+	
+- Instanciar pickups automaticamente e randomicamente dos dois lados -FEITO-
+	Lado esquerdo- (pos)X = 28, Scale X = 1
+	Lado direito- (pos)X = 152, Scale X = -1
+	Começar o Y = -32(fora da tela, por cima)
+	Velocidade Y += 1 quando instanciado
+	
+- Randomizar as sprites dos pickups
+- Randomizar o tempo de spawn dos pickups
+- Instanciar as CLTs
+	mesmas especificações base de posicionamento que os pickups
+	colisão com o player para dar dano
