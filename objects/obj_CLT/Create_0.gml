@@ -1,5 +1,3 @@
-randomize();
-
 speedY = 1.5;
 left_x = -4;
 right_x = 184;

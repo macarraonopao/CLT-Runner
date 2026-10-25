@@ -34,7 +34,7 @@ global.veryHard = false;
 
 normalTime = 10;
 hardTime = 25;
-veryHardTime = 45;
+veryHardTime = 40;
 
 alarm[0] = normalTime * 60;
 alarm[1] = hardTime * 60;
