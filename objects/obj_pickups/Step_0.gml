@@ -1,5 +1,5 @@
 if (!isInstance) exit;
-y += 1;
+y += speedY + global.runSpd;
 if (y >= end_y)
 {
 	//show_debug_message("fui destruido");

@@ -1,6 +1,7 @@
 if(isInstance) exit;
-
 isInstance = true;
-instance_copy(1);
 
-alarm[0] = 3000;
+rndSprite = array_get(pickupSprites, irandom_range(0, 3));
+sprite_index = rndSprite;
+
+instance_copy(1);

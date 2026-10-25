@@ -1,5 +1,13 @@
 randomize();
 
+pickupSprites = [
+spr_pickup_batata,
+spr_pickup_chocolate,
+spr_pickup_coxinha,
+spr_pickup_hamburguer
+]
+
+speedY = random_range(1.2, 1.7);
 left_x = 10;
 right_x = 170;
 start_y = -32;
@@ -12,4 +20,6 @@ y = start_y;
 
 isInstance = false;
 
-alarm[0] = 30;
+spawnTime = irandom_range(35, 75)
+
+alarm[0] = spawnTime;

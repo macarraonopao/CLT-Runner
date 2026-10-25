@@ -31,13 +31,17 @@ Desenvolvimento:
 	sempre (pos)Y = 260
 	
 - Instanciar pickups automaticamente e randomicamente dos dois lados -FEITO-
-	Lado esquerdo- (pos)X = 28, Scale X = 1
-	Lado direito- (pos)X = 152, Scale X = -1
+	Lado esquerdo- (pos)X = 10, Scale X = 1
+	Lado direito- (pos)X = 170, Scale X = -1
 	Começar o Y = -32(fora da tela, por cima)
 	Velocidade Y += 1 quando instanciado
 	
-- Randomizar as sprites dos pickups
-- Randomizar o tempo de spawn dos pickups
-- Instanciar as CLTs
-	mesmas especificações base de posicionamento que os pickups
+
+- Instanciar as CLTs -FEITO-
+	Lado esquerdo- (pos)X = -4, Scale X = 1
+	Lado direito- (pos)X = 184, Scale X = -1
 	colisão com o player para dar dano
+
+- Randomizar as sprites dos pickups -FEITO-
+
+- Randomizar o tempo de spawn dos pickups e CLTs -FEITO-

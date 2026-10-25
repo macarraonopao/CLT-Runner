@@ -1,7 +1,4 @@
-if (image_index >= introSpriteNumber) room_goto_next();
-
-show_debug_message(introSpriteNumber);
-show_debug_message(image_index);
+if (image_index >= introSpriteNumber) room_goto(rm_game);
 
 image_index += 1;
 
